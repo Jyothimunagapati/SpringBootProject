@@ -45,7 +45,7 @@ public class EmployeeRestController {
  @DeleteMapping("/api/employees/{employeeId}")
  public void deleteEmployee(@PathVariable(name="employeeId")Long employeeId){
   employeeService.deleteEmployee(employeeId);
-  System.out.println("Employee Deleted Successfully");
+  System.out.println("Employee Deleted Successfully done");
  }
   
  @PutMapping("/api/employees/{employeeId}")
